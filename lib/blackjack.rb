@@ -48,7 +48,7 @@ if answer ==  's'
       return current_card_total
     else
       invalid_command
-    
+
     end
   end
 
