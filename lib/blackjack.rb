@@ -35,8 +35,12 @@ puts "Your cards add up to #{card_total}"
 
 end
 
-def hit?
-  # code hit? here
+def hit?(number)
+
+puts number = card_total
+
+prompt_user
+
 end
 
 def invalid_command
