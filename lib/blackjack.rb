@@ -44,8 +44,8 @@ if answer ==  's'
   return current_card_total
 
   elsif answer == 'h'
-  deal_card + card_total 
-
+  current_card_total += deal_card
+      
       return current_card_total
     else
       invalid_command
