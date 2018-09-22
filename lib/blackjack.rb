@@ -67,8 +67,6 @@ def runner
   hit?
   display_card_total
 
-   card_total = 0
-
    until card_total > 21
 
   end_game
