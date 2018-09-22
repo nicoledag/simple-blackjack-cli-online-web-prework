@@ -35,24 +35,24 @@ puts "Your cards add up to #{card_total}"
 
 end
 
-def hit?(number)
+def hit?(current_card_total)
 
 prompt_user
 answer = get_user_input
 
-if answer ==  s
-  return card_total
+if answer ==  's'
+  return current_card_total
+  
+  elsif answer == 'h'
+  current_card_total += deal_card
+      display_card_total(current_card_total)
+      return current_card_total
+    else
+      invalid_command
+    prompt_user
+    end
+  end
 
-
-elsif answer == h
-  deal_card+card_total
-
-else
-  invalid_command
-  prompt_user
-
-end
-end
 
 def invalid_command
   # code invalid_command here
