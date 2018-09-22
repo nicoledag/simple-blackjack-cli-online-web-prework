@@ -27,8 +27,8 @@ def initial_round
 puts deal_card
 puts deal_card
 
-puts display_card_total
-display_card_total
+puts "Your cards add up to card_total"
+
 end
 
 def hit?
