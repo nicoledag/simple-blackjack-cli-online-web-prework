@@ -69,7 +69,7 @@ def runner
 
    current_card_total = 0
 
-   until current_card_total == 21
+   until current_card_total > 21
 
   end_game
 
