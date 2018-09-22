@@ -41,15 +41,16 @@ prompt_user
 answer = get_user_input
 
 if answer ==  s
+  
 
 elsif answer == h
   deal_card
 
-else answer == h && answer == s
-  puts invalid_command
+else 
+  invalid_command
+  prompt_user
 
-
-
+end
 end
 
 def invalid_command
