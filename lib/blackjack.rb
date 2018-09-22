@@ -23,7 +23,8 @@ puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
-  # code #initial_round here
+  puts display_card_total
+  display_card_total
 end
 
 def hit?
