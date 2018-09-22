@@ -41,12 +41,12 @@ prompt_user
 answer = get_user_input
 
 if answer ==  s
-  
+
 
 elsif answer == h
-  deal_card
+  deal_card+card_total
 
-else 
+else
   invalid_command
   prompt_user
 
