@@ -15,7 +15,7 @@ def prompt_user
 end
 
 def get_user_input
- gets.chomp
+ answer = gets.chomp
 end
 
 def end_game(card_total)
@@ -38,7 +38,7 @@ end
 def hit?(number)
 
 prompt_user
-input = get_user_input
+answer = get_user_input
 
 end
 
