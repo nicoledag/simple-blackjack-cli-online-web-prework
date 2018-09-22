@@ -45,17 +45,16 @@ if answer ==  's'
 
   elsif answer == 'h'
   current_card_total += deal_card
-      
       return current_card_total
     else
       invalid_command
-    prompt_user
+    
     end
   end
 
 
 def invalid_command
-  # code invalid_command here
+prompt_user
 end
 
 #####################################################
