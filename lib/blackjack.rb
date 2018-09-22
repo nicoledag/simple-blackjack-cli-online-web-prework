@@ -35,9 +35,9 @@ puts "Your cards add up to #{card_total}"
 
 end
 
-def hit?(number)
+def hit?
 
-puts prompt_user
+prompt_user
 
 end
 
