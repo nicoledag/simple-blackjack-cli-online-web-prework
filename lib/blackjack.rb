@@ -41,6 +41,7 @@ prompt_user
 answer = get_user_input
 
 if answer ==  s
+  return card_total
 
 
 elsif answer == h
