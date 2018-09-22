@@ -24,8 +24,6 @@ end
 
 def initial_round
 
-puts deal_card
-puts deal_card
 
 puts "Your cards add up to card_total"
 
