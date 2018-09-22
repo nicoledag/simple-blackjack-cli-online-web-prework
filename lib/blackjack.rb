@@ -35,7 +35,7 @@ puts "Your cards add up to #{card_total}"
 
 end
 
-def hit?
+def hit?(number)
 
 prompt_user
 answer = get_user_input
