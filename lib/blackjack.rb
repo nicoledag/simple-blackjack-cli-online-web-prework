@@ -37,9 +37,7 @@ end
 
 def hit?(number)
 
-puts number = card_total
-
-prompt_user
+puts prompt_user
 
 end
 
