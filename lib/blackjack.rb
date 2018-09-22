@@ -30,6 +30,7 @@ def initial_round
 
   card_total = first_card + second_card
 
+puts "Your cards add up to #{card_total}"
   return card_total
 
 end
